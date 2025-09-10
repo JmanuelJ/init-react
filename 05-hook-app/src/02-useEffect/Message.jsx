@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export const Message = () => {
     useEffect(() => {
@@ -19,5 +19,5 @@ export const Message = () => {
     <>
     <h3>Usuario ya existe</h3>
     </>
-  );
+  )
 }

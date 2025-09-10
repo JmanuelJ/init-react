@@ -10,5 +10,5 @@ export const CounterWithCustomHook = () => {
     <button className="btn btn-primary" onClick={() => reset()}>reset</button>
     <button className="btn btn-primary" onClick={() => decrement()}>-1</button>
     </>
-  );
-};
+  )
+}

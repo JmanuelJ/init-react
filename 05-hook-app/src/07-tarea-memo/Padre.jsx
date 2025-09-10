@@ -12,11 +12,9 @@ export const Padre = () => {
         }, [],
     );
 
-
     // const incrementar = ( num ) => {
     //     setValor( valor + num )
     // }
-
 
     return (
         <div>

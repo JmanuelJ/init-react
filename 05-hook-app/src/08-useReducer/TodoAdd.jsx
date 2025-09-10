@@ -1,8 +1,8 @@
-import { useForm } from "../hooks/useForm";
+import { useForm } from '../hooks/useForm';
 
 export const TodoAdd = ({onNewTodo}) => {
   const { description, onInputChange, onResetForm } = useForm({
-    description: "",
+    description: '',
   });
 
   const onFormSubmit = (event) => {
@@ -33,5 +33,5 @@ export const TodoAdd = ({onNewTodo}) => {
         Agregar
       </button>
     </form>
-  );
-};
+  )
+}

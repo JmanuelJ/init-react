@@ -13,7 +13,7 @@ export const CallbackHook = () => {
 
     // const increment = () => {
     //     setCounter(counter + 1);
-    // };
+    // }
 
   return (
     <>
@@ -21,5 +21,5 @@ export const CallbackHook = () => {
     <hr />
     <ShowIncrement increment={incrementFather}/>
     </>
-  );
+  )
 }

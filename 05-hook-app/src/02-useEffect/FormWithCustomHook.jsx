@@ -1,4 +1,4 @@
-import { useForm } from "../hooks/useForm";
+import { useForm } from '../hooks/useForm';
 
 export const FormWithCustomKook = () => {
 
@@ -42,5 +42,5 @@ export const FormWithCustomKook = () => {
 
       <button onClick={onResetForm} className="btn btn-primary mt-2">Borrar</button>
     </>
-  );
+  )
 }

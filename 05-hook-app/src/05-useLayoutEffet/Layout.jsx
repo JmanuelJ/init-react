@@ -1,7 +1,6 @@
-import React from "react";
-import { useCounter, useFecth } from "../hooks";
-import { LoadingMessage } from "../03-examples/LoadingMessage";
-import { PokemonCard } from "../03-examples/PokemonCard";
+import { useCounter, useFecth } from '../hooks';
+import { LoadingMessage } from '../03-examples/LoadingMessage';
+import { PokemonCard } from '../03-examples/PokemonCard';
 
 export const Layout = () => {
   const { counter, decrement, increment } = useCounter(1);
@@ -38,5 +37,5 @@ export const Layout = () => {
         siguiente
       </button>
     </>
-  );
-};
+  )
+}

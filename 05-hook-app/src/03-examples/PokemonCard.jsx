@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef } from 'react'
+import { useLayoutEffect, useRef } from 'react'
 
 export const PokemonCard = ({id, name, sprites = []}) => {
 
@@ -8,7 +8,7 @@ export const PokemonCard = ({id, name, sprites = []}) => {
     const {height, width} = h2Ref.current.getBoundingClientRect();
     console.log(height, width);
     
-  }, [])
+  }, []);
 
   return (
     <section style={{height: 200, display: 'flex', flexDirection: 'row'}}>

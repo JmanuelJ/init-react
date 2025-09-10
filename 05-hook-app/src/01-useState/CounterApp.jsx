@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 export const CounterApp = () => {
   const [state, setcounter] = useState({
@@ -24,5 +24,7 @@ export const CounterApp = () => {
         +1
       </button>
     </>
-  );
-};
+  )
+}
+
+

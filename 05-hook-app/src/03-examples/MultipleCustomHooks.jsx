@@ -1,7 +1,7 @@
-import React from "react";
-import { useCounter, useFecth } from "../hooks";
-import { LoadingMessage } from "./LoadingMessage";
-import { PokemonCard } from "./PokemonCard";
+import React from 'react';
+import { useCounter, useFecth } from '../hooks';
+import { LoadingMessage } from './LoadingMessage';
+import { PokemonCard } from './PokemonCard';
 
 export const MultipleCustomHooks = () => {
   const { counter, decrement, increment } = useCounter(1);
@@ -34,9 +34,9 @@ export const MultipleCustomHooks = () => {
       >
         anterior
       </button>
-      <button className="btn btn-primary" onClick={() => increment()}>
+      <button className="btn btn-primary" onClick={() => increment()} disabled={isLoading}>
         siguiente
       </button>
     </>
-  );
-};
+  )
+}

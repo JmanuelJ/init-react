@@ -5,7 +5,7 @@ export const FocusScreen = () => {
 
     const onClick = () => {
         inputRef.current.select();
-    };
+    }
     
   return (
     <>
@@ -19,5 +19,5 @@ export const FocusScreen = () => {
       />
       <button className="btn btn-primary mt-2" onClick={onClick}>Set focus</button>
     </>
-  );
-};
+  )
+}

@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Message } from "./Message";
+import { useEffect, useState } from 'react';
+import { Message } from './Message';
 
 export const SimpleForm = () => {
   const [formState, setFormState] = useState({
@@ -15,7 +15,7 @@ export const SimpleForm = () => {
         ...formState,
         [name]: value
     });
-  };
+  }
 
   useEffect(() => {
     // console.log('useEffect called!');
@@ -59,5 +59,5 @@ export const SimpleForm = () => {
         (username === 'JuanMa1') && <Message />
       }
     </>
-  );
-};
+  )
+}
