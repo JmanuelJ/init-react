@@ -8,7 +8,7 @@ export const RegisterPage = () => {
     <AuthLayout title='Crear cuenta'>
       <form>
         <Grid container>
-          <Grid item size={{ xs: 12 }}>
+          <Grid size={{ xs: 12 }}>
             <TextField
               label='Nombre completo'
               type='text'
@@ -17,7 +17,7 @@ export const RegisterPage = () => {
             />
           </Grid>
 
-          <Grid item size={{ xs: 12 }}>
+          <Grid size={{ xs: 12 }}>
             <TextField
               label='Correo'
               type='email'
@@ -26,11 +26,12 @@ export const RegisterPage = () => {
             />
           </Grid>
 
-          <Grid item>
+          <Grid>
             <TextField
               label='Contraseña'
               type='password'
               placeholder='Contraseña'
+              autoComplete='off'
               fullWidth
             />
           </Grid>
@@ -41,7 +42,7 @@ export const RegisterPage = () => {
             spacing={2}
             sx={{ mb: 2, mt: 1 }}
           >
-            <Grid item size={{ xs: 12, sm: 12 }}>
+            <Grid size={{ xs: 12, sm: 12 }}>
               <Button variant='contained' fullWidth>
                 Crear cuenta
               </Button>

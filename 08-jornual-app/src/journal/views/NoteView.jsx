@@ -11,12 +11,12 @@ export const NoteView = () => {
       alignItems='center'
       sx={{ mb: 1 }}
     >
-      <Grid item size={{ sm: 6 }}>
+      <Grid size={{ sm: 6 }}>
         <Typography fontSize={39} fontWeight='light'>
           28 de agosto, 2023
         </Typography>
       </Grid>
-      <Grid item>
+      <Grid >
         <Button color='primary' sx={{ padding: 2 }}>
           <SaveOutlined sx={{ fontSize: 30, mr: 1 }} />
           Guardar

@@ -8,7 +8,7 @@ export const LoginPage = () => {
     <AuthLayout title='Login'>
       <form>
         <Grid container>
-          <Grid item size={{ xs: 12 }}>
+          <Grid size={{ xs: 12 }}>
             <TextField
               label='Correo'
               type='email'
@@ -17,23 +17,24 @@ export const LoginPage = () => {
             />
           </Grid>
 
-          <Grid item>
+          <Grid>
             <TextField
               label='Contraseña'
               type='password'
               placeholder='Contraseña'
+              autoComplete='off'
               fullWidth
             />
           </Grid>
 
           <Grid container spacing={2} sx={{ mb: 2, mt: 1 }}>
-            <Grid item size={{ xs: 12, sm: 6 }}>
+            <Grid size={{ xs: 12, sm: 6 }}>
               <Button variant='contained' fullWidth>
                 Login
               </Button>
             </Grid>
 
-            <Grid item size={{ xs: 12, sm: 6 }}>
+            <Grid size={{ xs: 12, sm: 6 }}>
               <Button variant='contained' fullWidth>
                 <Google />
                 <Typography sx={{ ml: 1 }}>Google</Typography>
